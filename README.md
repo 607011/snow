@@ -24,11 +24,11 @@ The encoding scheme used by snow relies on the fact that spaces and tabs (known 
 
 The snow program runs in two modes - message concealment, and message extraction. During concealment, the following steps are taken:
 
-  Message -> optional compression -> optional encryption -> concealment in text
+    Message -> optional compression -> optional encryption -> concealment in text
 
 Extraction reverses the process:
 
-  Extract data from text -> optional decryption -> optional uncompression -> message
+    Extract data from text -> optional decryption -> optional uncompression -> message
 
 Each of the steps are described in detail below.
 
